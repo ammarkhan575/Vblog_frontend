@@ -10,7 +10,7 @@ const Landing = () => {
         <Headup />
         <AuthContent />
       </div>
-      <div className="w-full h-screen absolute top-0 left-0">
+      <div className="w-full h-screen top-0 left-0">
         <Part />
       </div>
     </div>

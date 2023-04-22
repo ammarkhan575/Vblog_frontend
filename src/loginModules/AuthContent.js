@@ -1,8 +1,10 @@
 import React from "react";
+import LoginForm from "./LoginForm";
+import Button from "../helpers/Button";
 
 const AuthContent = () => {
   return (
-    <div className="w-full flex justify-between items-center mt-32">
+    <div className="w-full flex justify-between items-center mt-12">
       <div className="flex flex-col gap-6">
         <h3 className="text-xl text-cyan-400 font-semibold">
           SPREADING LEARNING THROUGH BLOGS
@@ -14,13 +16,9 @@ const AuthContent = () => {
         <p className="text-m text-gray-300 font-semibold">
           New to this platform ?
         </p>
-        <button className="w-44 bg-cyan-400 px-6 py-4 text-xl font-bold uppercase rounded-full">
-          SignUp
-        </button>
+        <Button text="Signup" />
       </div>
-      <div>
-        <h1>login form</h1>
-      </div>
+      <LoginForm />
     </div>
   );
 };
