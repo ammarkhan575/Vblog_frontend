@@ -6,7 +6,7 @@ import QuestionAnswerOutlinedIcon from "@mui/icons-material/QuestionAnswerOutlin
 
 const Sidebar = () => {
   return (
-    <div className="bg-white w-1/6 p-4 rounded-lg">
+    <div className="bg-white w-1/6 p-4 rounded-lg sticky top-0 h-max">
       <div>
         <ul>
           <li className="flex p-4 items-center">
