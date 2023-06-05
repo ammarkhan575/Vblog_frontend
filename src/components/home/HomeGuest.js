@@ -1,5 +1,5 @@
 import React from "react";
-import Sidebar from "../headers/Sidebar";
+
 import abstract from "../../helpers/images/abstract.svg";
 import abstract2 from "../../helpers/images/SVG/abstract2.svg";
 import BackupOutlinedIcon from "@mui/icons-material/BackupOutlined";
@@ -11,8 +11,7 @@ import quincy from "../../helpers/images/quincy.jpg";
 
 const HomeGuest = () => {
   return (
-    <div className="flex px-4">
-      <Sidebar />
+    <div className="px-4">
       <div className="ml-6 my-4">
         <section className="flex items-center justify-between p-4 bg-blue-700 text-white font-bold rounded-2xl">
           <p className="">
