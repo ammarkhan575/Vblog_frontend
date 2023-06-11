@@ -5,7 +5,7 @@ import Button from "../helpers/Button";
 const LoginForm = () => {
   return (
     <div>
-      <form className="bg-[#00000014] shadow-[0_0_40px_rgba(57,78,196,3.4)] px-16 py-8 rounded-lg">
+      <form className="mr-4 mt-6 md:mt-0 bg-[#00000014] shadow-[0_0_40px_rgba(57,78,196,3.4)] px-16 py-8 rounded-lg">
         <h1 className="mb-4 text-4xl">Welcome Back !</h1>
         <h2 className="text-xl text-[#c6c6ff]">login to your account</h2>
 
