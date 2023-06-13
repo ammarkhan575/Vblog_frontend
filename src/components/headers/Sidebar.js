@@ -11,7 +11,7 @@ import { grey } from "@mui/material/colors";
 
 const Sidebar = () => {
   return (
-    <div className="bg-white w-1/6 p-4 rounded-2xl sticky top-2 h-max border border-slate-200">
+    <div className="bg-white w-1/4 p-4 rounded-2xl sticky top-2 h-max border border-slate-200 md:absolute md:top-28 md:w-60 lg:p-2 lg:w-1/3 md:hidden">
       <div>
         <ul>
           <li className="flex p-4 items-center">
