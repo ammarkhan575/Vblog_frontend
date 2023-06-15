@@ -12,7 +12,7 @@ import quincy from "../../helpers/images/quincy.jpg";
 const HomeGuest = () => {
   return (
     <div className="px-4 lg:px-2">
-      <div className="ml-6 my-4 xl:ml-2">
+      <div className="mx-32 my-4 xl:mx-12 sm:mx-4">
         <section className="flex items-center justify-between p-4 bg-blue-700 text-white font-bold rounded-2xl sm:flex-col sm:text-center sm:font-medium">
           <p className="sm:my-4">
             🌟 Introducing Vblog Boost your tech reading with AI-assisted
