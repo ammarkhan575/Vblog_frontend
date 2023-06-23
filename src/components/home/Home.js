@@ -3,7 +3,7 @@ import HomeGuest from "./HomeGuest";
 import MainHome from "./MainHome";
 
 const Home=()=>{
-    const [auth,setAuth]=useState(false);
+    const [auth,setAuth]=useState(true);
     return(
         <div>
             {auth===false && <HomeGuest/>}
