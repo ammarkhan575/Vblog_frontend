@@ -11,10 +11,10 @@ import quincy from "../../helpers/images/quincy.jpg";
 
 const HomeGuest = () => {
   return (
-    <div className="px-4">
-      <div className="ml-6 my-4">
-        <section className="flex items-center justify-between p-4 bg-blue-700 text-white font-bold rounded-2xl">
-          <p className="">
+    <div className="px-4 lg:px-2">
+      <div className="mx-32 my-4 xl:mx-12 sm:mx-4">
+        <section className="flex items-center justify-between p-4 bg-blue-700 text-white font-bold rounded-2xl sm:flex-col sm:text-center sm:font-medium">
+          <p className="sm:my-4">
             🌟 Introducing Vblog Boost your tech reading with AI-assisted
             features, exclusive perks, and more! Elevate your blogging
             experience like never before.
@@ -25,15 +25,15 @@ const HomeGuest = () => {
         </section>
         <section className="bg-white my-6 px-12 py-12 rounded-2xl flex  border border-slate-200">
           <div>
-            <h1 className="text-7xl font-bold mx-4 my-4">
+            <h1 className="text-7xl font-bold mx-4 my-4 xl:text-[3rem] lg:mx-0 sm:text-[2rem]">
               <span className="text-blue-800">Home</span> for tech writers and
               readers
             </h1>
-            <p className="text-xl mx-4 my-12 font-medium text-gray-700">
+            <p className="text-xl mx-4 my-12 font-medium text-gray-700 lg:mx-0">
               The hassle-free blogging platform for engineers, thought-leaders,
               and the dev community!
             </p>
-            <p className="text-2xl mx-4 my-8 font-semibold">
+            <p className="text-2xl mx-4 my-8 font-semibold lg:mx-0">
               Blog on a custom domain, own your content and share your ideas
               with the world.
             </p>
@@ -41,16 +41,16 @@ const HomeGuest = () => {
               Get started - it's free{" "}
             </p>
           </div>
-          <div className="p-32">
+          <div className="p-32 xl:p-16  lg:hidden">
             <img className="w-[40rem]" src={abstract} alt="abstract" />
           </div>
         </section>
-        <section className="bg-white px-12 py-12 flex rounded-2xl border border-slate-200">
-          <div className="w-[20rem] m-4">
+        <section className="bg-white px-12 py-12 flex rounded-2xl border border-slate-200 lg:flex-col">
+          <div className="w-[20rem] m-4 lg:w-[10rem]">
             <img className="rounded-[2rem]" src={quincy} alt="quincy" />{" "}
           </div>
           <div>
-            <p className="text-2xl p-4">
+            <p className="text-2xl p-4 xl:text-[1rem]">
               "You can start a dev blog in just a few seconds using Hashnode and
               then you can move that to your own domain if you get one later.
               They will even help distribute your articles on their platform. By
@@ -65,14 +65,14 @@ const HomeGuest = () => {
           </div>
         </section>
         <section className="bg-[#0F172A] my-6 p-12 rounded-3xl text-white border border-slate-200">
-          <div className="flex justify-between items-center mb-8">
-            <h1 className="text-4xl px-8 font-bold">
+          <div className="flex justify-between items-center mb-8 sm:flex-col">
+            <h1 className="text-4xl px-8 font-bold lg:text-2xl">
               Everything you need to start blogging as a developer!
             </h1>
-            <img className="w-28 mx-44" src={abstract2} alt="abstract" />
+            <img className="w-28 mx-44 xl:mx-20 lg:mx-12 lg:w-20" src={abstract2} alt="abstract" />
           </div>
-          <div className="grid grid-cols-2 gap-8 my-20">
-            <div className="flex my-8 px-8">
+          <div className="grid grid-cols-2 gap-8 my-20 xl:gap-4 sm:grid-cols-1">
+            <div className="flex my-8 px-8 lg:px-0">
               <BackupOutlinedIcon sx={{ color: purple[600], fontSize: 30 }} />
               <div className="px-4">
                 <p className="font-bold text-xl mb-2">
@@ -85,7 +85,7 @@ const HomeGuest = () => {
                 </p>
               </div>
             </div>
-            <div className="flex my-8 px-8">
+            <div className="flex my-8 px-8 lg:px-0">
               <OfflineBoltOutlinedIcon
                 sx={{ color: purple[600], fontSize: 30 }}
               />
@@ -100,7 +100,7 @@ const HomeGuest = () => {
                 </p>
               </div>
             </div>
-            <div className="flex my-8 px-8">
+            <div className="flex my-8 px-8 lg:px-0">
               <AddCircleOutlineIcon sx={{ color: purple[600], fontSize: 30 }} />
               <div className="px-4">
                 <p className="font-bold text-xl mb-2">
@@ -113,7 +113,7 @@ const HomeGuest = () => {
                 </p>
               </div>
             </div>
-            <div className="flex my-8 px-8">
+            <div className="flex my-8 px-8 lg:px-0">
               <AddLinkIcon sx={{ color: purple[600], fontSize: 30 }} />
               <div className="px-4">
                 <p className="font-bold text-xl mb-2">
@@ -128,12 +128,12 @@ const HomeGuest = () => {
             </div>
           </div>
         </section>
-        <section className="bg-white px-12 py-12 flex rounded-2xl border border-slate-200">
-          <div className="w-[20rem] m-4">
+        <section className="bg-white px-12 py-12 flex rounded-2xl border border-slate-200 lg:flex-col">
+          <div className="w-[20rem] m-4 lg:w-[10rem]">
             <img className="rounded-[2rem]" src={quincy} alt="quincy" />{" "}
           </div>
           <div>
-            <p className="text-2xl p-4">
+            <p className="text-2xl p-4 text-[1rem]">
               "You can start a dev blog in just a few seconds using Hashnode and
               then you can move that to your own domain if you get one later.
               They will even help distribute your articles on their platform. By

@@ -3,10 +3,10 @@ import Navbar from "./components/headers/Navbar";
 import Sidebar from "./components/headers/Sidebar";
 import { Route, Routes } from "react-router";
 import EditProfile from "./components/Editprofile/EditProfile";
-import HomeGuest from "./components/home/HomeGuest";
 import Profile from "./components/profile/Profile";
 import { useState } from "react";
 import Footer from "./components/headers/Footer";
+import Home from "./components/home/Home";
 
 const AppContainer = () => {
   const [name, setname] = useState("");
@@ -18,9 +18,10 @@ const AppContainer = () => {
     <div>
       <Navbar />
       <div className="flex">
-        <Sidebar />
+        
         <Routes>
-          <Route path="/" element={<HomeGuest />} />
+          <Route path="/" element={<Home/>} />
+          
           <Route
             path="/editProfile"
             element={
