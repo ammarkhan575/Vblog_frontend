@@ -7,6 +7,7 @@ import Profile from "./components/profile/Profile";
 import { useState } from "react";
 import Footer from "./components/headers/Footer";
 import Home from "./components/home/Home";
+import UserProfile from "./components/profile/UserProfile";
 
 const AppContainer = () => {
   const [name, setname] = useState("");
@@ -50,6 +51,12 @@ const AppContainer = () => {
                 avail={avail}
                 setavail={setavail}
               />
+            }
+          />
+          <Route
+            path="/@vblog"
+            element={
+              <UserProfile/>
             }
           />
         </Routes>

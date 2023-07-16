@@ -12,6 +12,7 @@ function App() {
     <div className="App overflow-x-hidden bg-[#F8FAFC] w-screen h-screen">
       <Routes>
         <Route path="/login" element={<Landing />} />
+        
       </Routes>
 
       {location.pathname !== "/login" && <AppContainer />}
